@@ -13,8 +13,11 @@
                 $(".second").hide(3000);
             })
 
+            let number = 1
             $("#p1").mouseleave(function(){
-                alert("Mouse has left p1!");
+                // alert("Mouse has left p1!");
+                number++;
+                console.log("Hello for the " + number + " time today!");
             })
 
             $("p").on({
