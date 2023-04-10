@@ -1,9 +1,9 @@
-const words = ["brown", "fox", "jumped", "quickly"]
+const words = ["brown", "fox", "jumped", "quickly"];
 const numbers = [18, 36, 24, 12];
 let index = 0;
 
 function setup() {
-    myCanvas = createCanvas(600, 400);
+    myCanvas = createCanvas(400, 400);
     myCanvas.parent('myContainer');
 
     setInterval(changeInterval, 1000);
